@@ -173,12 +173,15 @@ header,
 .container {
   min-width: 70%;
   max-width: 1200px;
+  padding: 1rem;
 }
 
 header {
   padding: var(--padding);
   width: 100%;
   gap: calc(var(--gap-2) + 5vw);
+  border-bottom: 2px solid #aaa;
+  box-shadow: 0 2px 2px #aaaaaa3f;
 
   & .logo {
     /* color: var(--Very-dark-blue);
@@ -208,10 +211,13 @@ header {
 }
 
 .content-container {
+  padding: 1rem 0;
   width: 100%;
   gap: var(--gap-2);
 
   & .top-class {
+    border-bottom: 1px solid #aaa;
+    padding: 2rem;
     gap: calc(var(--gap-2) + 1vw);
 
     & .left-content {
