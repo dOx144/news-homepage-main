@@ -418,6 +418,10 @@ footer {
     width: 100%;
   }
 
+  .top-class {
+    padding: 0 !important;
+  }
+
   footer {
     & p:nth-child(1) {
       font-size: 12px;
